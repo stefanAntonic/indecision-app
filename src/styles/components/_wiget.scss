@@ -1,0 +1,28 @@
+// Wiget 
+
+.wiget{
+    background: $light-blue;
+    margin-bottom: $xl-size ;
+}
+.wiget__message{
+    color: $off-white;
+    padding: $l-size;
+    margin: 0;
+    border-bottom: .1rem solid lighten($light-blue, 10%);
+   text-align: center;
+}
+
+// Wiget header 
+
+.wiget-header{
+    background: $blue;
+    color: $off-white;
+    display: flex;
+    justify-content: space-between;
+    padding: $m-size;
+}
+
+.wiget-header__title{
+    margin: 0;
+}
+
